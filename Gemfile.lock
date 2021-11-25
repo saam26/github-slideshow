@@ -278,3 +278,12 @@ DEPENDENCIES
 
 BUNDLED WITH
    1.17.3
+   
+git checkout master
+git pull
+git checkout <branch>
+git merge master
+[ ... resolve any conflicts ... ]
+git add [files that were conflicted]
+git commit
+git push
